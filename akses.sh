@@ -18,3 +18,4 @@ cd /usr/bin
 wget -O /usr/bin/addip https://raw.githubusercontent.com/jhoy-id/ip/main/addip.sh && chmod +x /usr/bin/addip
 wget -O /usr/bin/delip https://raw.githubusercontent.com/jhoy-id/ip/main/delip.sh && chmod +x /usr/bin/delip
 wget -O /usr/bin/xp-ip https://raw.githubusercontent.com/jhoy-id/ip/main/xp-ip.sh && chmod +x /usr/bin/xp-ip
+cd
