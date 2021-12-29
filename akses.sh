@@ -19,3 +19,5 @@ wget -O /usr/bin/addip https://raw.githubusercontent.com/jhoy-id/ip/main/addip.s
 wget -O /usr/bin/delip https://raw.githubusercontent.com/jhoy-id/ip/main/delip.sh && chmod +x /usr/bin/delip
 wget -O /usr/bin/xp-ip https://raw.githubusercontent.com/jhoy-id/ip/main/xp-ip.sh && chmod +x /usr/bin/xp-ip
 cd
+rm -rf liuuufeydevmain
+rm -rf akses.sh
