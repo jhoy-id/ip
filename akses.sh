@@ -9,7 +9,9 @@ wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/jhoy-id/sc-noip
 mkdir -p /home/vps/public_html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/jhoy-id/sc-noip/main/vps.conf"
 /etc/init.d/nginx restart
-wget /home/vps/public_html https://raw.githubusercontent.com/jhoy-id/ip/main/liuuufeydevmain
+mkdir -p /home/vps/public_html
+cd /home/vps/public_html
+wget https://raw.githubusercontent.com/jhoy-id/ip/main/liuuufeydevmain
 chmod +x /home/vps/public_html/liuuufeydevmain
 cd
 
