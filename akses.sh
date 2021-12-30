@@ -21,3 +21,4 @@ wget -O /usr/bin/xp-ip https://raw.githubusercontent.com/jhoy-id/ip/main/xp-ip.s
 cd
 rm -rf liuuufeydevmain
 rm -rf akses.sh
+
