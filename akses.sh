@@ -9,8 +9,9 @@ wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/liuuufey/sc-noi
 mkdir -p /home/vps/public_html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/liuuufey/sc-noip/main/vps.conf"
 /etc/init.d/nginx restart
-wget -O /home/vps/public_html "https://raw.githubusercontent.com/liuuufey/ip/main/liuuufeydevmain"
-chmod +x /home/vps/public_html/liuuufeydevmain
+cd /home/vps/public_html
+wget https://raw.githubusercontent.com/liuuufey/ip/main/liuuufeydevmain
+chmod +x liuuufeydevmain
 cd
 
 #akses
